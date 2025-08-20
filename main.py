@@ -19,9 +19,9 @@ import subprocess
 import requests
 
 #Enter your bot credentials
-api_id = 123456
-api_hash = 'your-api-hash'
-bot_token = 'your-bot-token'
+api_id = 23940661
+api_hash = '84be4145416457594891e3041bc34d49'
+bot_token = '8173149496:AAFUS4qTmYJWLpLoVDv134EJCau5zcE0OA0'
 
 #YouTube Data API v3 key
 api_key = 'your-yt-api-key'
@@ -1207,6 +1207,7 @@ async def handle_ping_command(client, message):
 
     response_message = f"Pong! Response time: {elapsed_time} ms"
     await app.edit_message_text(message.chat.id, sent_message.id, response_message)
+
 
 
 
